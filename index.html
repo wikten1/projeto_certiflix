@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudável Mente</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="Logo Saudável Mente">
+            </a>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#">Teste</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">Mais</a></li>
+                </ul>
+            </nav>
+            <div class="menu-mobile" id="menu-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Faça o teste e verifique a saúde dos seus familiares porque quem ama cuida!</h1>
+                    <p>Faça um pequeno teste rápido com seus parentes para poder verificar como anda a saúde deles.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSewRWFnt-8Edyc67LY2JpGqS1rcZz1KgNZ4vJ82mA8i21XCbA/viewform?usp=header"><button class="btn-primary">Iniciar Teste</button></a>
+                </div>
+                <div class="hero-image">
+                    <picture>
+                        <source srcset="images/cuidadora_senhora_mobile.png" media="(max-width: 760px)">
+                        <img src="images/cuidadora_senhora.png" alt="Cuidadora ajudando uma senhora a usar o celular.">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses">
+            <div class="container courses-container">
+                <h2 class="courses-title">Selecione a área do curso procurado</h2>
+                
+                <div class="courses-menu">
+                    <button class="course-tab active" data-target="area-tecnologia">
+                        <span class="tab-icon">💻</span>
+                        <span class="tab-name">Tecnologia</span>
+                    </button>
+                    <button class="course-tab" data-target="area-saude">
+                        <span class="tab-icon">⚕️</span>
+                        <span class="tab-name">Saúde</span>
+                    </button>
+                    <button class="course-tab" data-target="area-bemestar">
+                        <span class="tab-icon">🧘‍♂️</span>
+                        <span class="tab-name">Bem-estar</span>
+                    </button>
+                </div>
+
+                <div class="courses-content">
+                    <!-- Área de Tecnologia (Padrão) -->
+                    <div id="area-tecnologia" class="course-area active">
+                        <div class="course-item">
+                            <div class="course-img-placeholder"></div>
+                            <div class="course-info">
+                                <h3>Título do curso 1</h3>
+                                <p>Link: <a href="http://www.exemplo.com.br" target="_blank">www.exemplo.com.br</a></p>
+                                <p>Pequenas descrição: adfefisgefie rjsfigisufie gfi aeifiaeifuei hafoaehfrheofr</p>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <div class="course-img-placeholder"></div>
+                            <div class="course-info">
+                                <h3>Título do curso 2</h3>
+                                <p>Link: <a href="http://www.exemplo.com.br" target="_blank">www.exemplo.com.br</a></p>
+                                <p>Pequenas descrição: adfefisgefie rjsfigisufie gfi aeifiaeifuei hafoaehfrheofr</p>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <div class="course-img-placeholder"></div>
+                            <div class="course-info">
+                                <h3>Título do curso 3</h3>
+                                <p>Link: <a href="http://www.exemplo.com.br" target="_blank">www.exemplo.com.br</a></p>
+                                <p>Pequenas descrição: adfefisgefie rjsfigisufie gfi aeifiaeifuei hafoaehfrheofr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Área de Saúde -->
+                    <div id="area-saude" class="course-area">
+                        <div class="course-item">
+                            <div class="course-img-placeholder"></div>
+                            <div class="course-info">
+                                <h3>Curso de Saúde 1</h3>
+                                <p>Link: <a href="http://www.exemplo.com.br" target="_blank">www.exemplo.com.br</a></p>
+                                <p>Pequenas descrição: fjsd flkjsd lkfjsd fkljsdk lfjsdlk fjsdl kfjsld.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Área de Bem-estar -->
+                    <div id="area-bemestar" class="course-area">
+                        <div class="course-item">
+                            <div class="course-img-placeholder"></div>
+                            <div class="course-info">
+                                <h3>Curso de Bem-estar 1</h3>
+                                <p>Link: <a href="http://www.exemplo.com.br" target="_blank">www.exemplo.com.br</a></p>
+                                <p>Pequenas descrição: xzcvzxc vzxcv zxc vzxc vzxc vzx cvzxc vzxcv zxcv.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-image">
+                    <picture>
+                        <source srcset="images/medica_mobile_grande.png" media="(max-width: 760px)">
+                        <img src="images/medica_pc.png" alt="Cuidadora ajudando uma senhora a usar o celular.">
+                    </picture>
+                </div>
+                <div class="about-text">
+                    <h1>Faça o teste e verifique a saúde dos seus familiares porque quem ama cuida!</h1>
+                    <p>Faça um pequeno teste rápido com seus parentes para poder verificar como anda a saúde deles.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="counter-box">
+            <div class="container">
+                <div class="counter-text">
+                    <h2>Número de acessos do site</h2>
+                    <p>Número total de acesso de pessoas que visualizaram o conteúdo do site</p>
+                </div>
+
+                <div class="counter">
+                    <!-- hitwebcounter Code START -->
+                    <span>
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=21448995&style=0006&nbdigits=5&type=page&initCount=0" title="Counters" Alt="Counters" width="150"  border="0" /></span>  
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container ">
+                <p><strong>Projeto Extensionista </strong> - Atividade Extensionista do Centro Universitário La Salle</p>
+                <p>&copy; 2026 - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
